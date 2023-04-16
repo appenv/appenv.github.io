@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## 应用变量
+应用变量是一款针对安卓设备的应用程序。它可以帮助您通过修改应用程序的配置文件，以更改应用程序的行为或属性。这种行为通常称为“Hook”，在安卓应用程序中非常常见。
 
-You can use the [editor on GitHub](https://github.com/appenv/appenv.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+#### 功能特点
+以下是应用变量的一些主要功能特点：
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* 可以修改应用程序的配置文件，以更改应用程序的行为或属性；
+* 可以使用自定义变量来实现更复杂的修改；
+* 可以保存和分享您的变量集；
+* 可以使用Xposed框架，实现更高级的Hook功能。
 
-### Markdown
+#### 使用方法
+以下是使用应用变量的步骤：
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. 安装并打开应用变量；
+2. 在主界面上找到您要修改的应用程序；
+3. 点击“进入变量编辑器”按钮；
+4. 找到您要修改的变量，进行修改；
+5. 保存您的修改并退出变量编辑器。
+请注意，修改应用程序的配置文件可能会导致应用程序出现不稳定或错误的行为。因此，请在使用应用变量时小心并备份您的设备数据。
 
-```markdown
-Syntax highlighted code block
+#### 下载地址
+您可以在以下链接中找到应用变量的最新版本：
 
-# Header 1
-## Header 2
-### Header 3
+https://github.com/appenv/appenv.github.io/releases/latest
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/appenv/appenv.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#### 结论
+应用变量是一款非常有用的安卓应用程序，它可以帮助您修改应用程序的配置文件，以更改应用程序的行为或属性。我们希望您可以利用这些功能，为您的设备带来更好的体验。如果您有任何问题或建议，请随时联系我们！
