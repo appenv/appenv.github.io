@@ -1,0 +1,542 @@
+#################################################################
+#               !! 胡乱修改此文件 会造成程序闪退 !!
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#
+# 如若要修改此文件 请确定您已知晓此文件的格式
+# 关于此文件格式请参阅下面文章：
+#   https://baike.baidu.com/item/YAML/1067697
+#   http://www.ruanyifeng.com/blog/2016/07/yaml.html
+#
+#################################################################
+
+#
+# 文件最后更新的时间戳。单位：毫秒
+#
+timestamp: 1662015183894
+
+#
+# 手机型号
+#
+products:
+    -   name: '华为'
+        value: 'Huawei'
+        models:
+            -   name: 'Mate 40 Pro'
+                value: 'NOH-AN00'
+            -   name: 'P40 Pro'
+                value: 'ELS-AN00'
+            -   name: 'Mate Xs'
+                value: 'TAH-AN00m'
+            -   name: 'nova 7'
+                value: 'JEF-AN00'
+            -   name: 'MatePad Pro'
+                value: 'MRX-AN19'
+            -   name: 'P30 Pro'
+                value: 'VOG-AL00'
+            -   name: 'Mate 30 Pro'
+                value: 'LIO-AL00'
+            -   name: 'nova 6'
+                value: 'WLZ-AN00'
+            -   name: 'MatePad 10.8'
+                value: 'MRX-W09'
+            -   name: 'Mate 20 X'
+                value: 'EVR-AL00'
+            -   name: 'nova 5 Pro'
+                value: 'SEA-AL10'
+            -   name: 'P40'
+                value: 'ANA-AN00'
+            -   name: 'Mate 20 Pro'
+                value: 'LYA-AL00'
+            -   name: 'MatePad T10s'
+                value: 'AGS3-W09HN'
+            -   name: 'nova 4'
+                value: 'VCE-AL00'
+            -   name: 'Mate 10 Pro'
+                value: 'BLA-AL00'
+            -   name: 'MatePad'
+                value: 'BAH3-W09'
+            -   name: 'Honor 30 Pro'
+                value: 'EBG-AN00'
+            -   name: 'Mate 20'
+                value: 'HMA-AL00'
+            -   name: 'nova 5i Pro'
+                value: 'SPN-AL00'
+    -   name: '小米'
+        value: 'Xiaomi'
+        models:
+            -   name: '小米10'
+                value: 'MI 10'
+            -   name: '小米10 青春版'
+                value: 'MI 10 Youth Edition'
+            -   name: '小米9'
+                value: 'MI 9'
+            -   name: '小米9 SE'
+                value: 'MI 9 SE'
+            -   name: '小米MIX 2'
+                value: 'MIX 2'
+            -   name: '小米MIX 3'
+                value: 'MIX 3'
+            -   name: '小米CC9'
+                value: 'Mi CC9'
+            -   name: '小米CC9 Pro'
+                value: 'Mi CC9 Pro'
+            -   name: '小米CC9e'
+                value: 'Mi CC9e'
+            -   name: '小米Note 10'
+                value: 'Mi Note 10'
+            -   name: '小米Note 3'
+                value: 'Mi Note 3'
+            -   name: '小米8'
+                value: 'Mi 8'
+            -   name: '小米8 青春版'
+                value: 'Mi 8 Youth Edition'
+            -   name: '小米8 SE'
+                value: 'Mi 8 SE'
+            -   name: '小米6'
+                value: 'Mi 6'
+            -   name: '小米6 Plus'
+                value: 'Mi 6 Plus'
+            -   name: '小米5'
+                value: 'Mi 5'
+            -   name: '小米5s'
+                value: 'Mi 5s'
+            -   name: '小米5s Plus'
+                value: 'Mi 5s Plus'
+            -   name: '小米4'
+                value: 'Mi 4'
+    -   name: '一加'
+        value: 'OnePlus'
+        models:
+            -   name: 'OnePlus 9 Pro'
+                value: 'LE2110'
+            -   name: 'OnePlus 9'
+                value: 'LE2117'
+            -   name: 'OnePlus 8T'
+                value: 'KB2005'
+            -   name: 'OnePlus 8 Pro'
+                value: 'IN2020'
+            -   name: 'OnePlus 8'
+                value: 'IN2013'
+            -   name: 'OnePlus 7T Pro'
+                value: 'HD1910'
+            -   name: 'OnePlus 7T'
+                value: 'HD1907'
+            -   name: 'OnePlus 7 Pro'
+                value: 'GM1910'
+            -   name: 'OnePlus 7'
+                value: 'GM1900'
+            -   name: 'OnePlus 6T'
+                value: 'A6013'
+            -   name: 'OnePlus 6'
+                value: 'A6003'
+            -   name: 'OnePlus 5T'
+                value: 'A5010'
+            -   name: 'OnePlus 5'
+                value: 'A5000'
+            -   name: 'OnePlus 3T'
+                value: 'A3010'
+            -   name: 'OnePlus 3'
+                value: 'A3000'
+            -   name: 'OnePlus 2'
+                value: 'ONE A2005'
+            -   name: 'OnePlus One'
+                value: 'A0001'
+            -   name: 'OnePlus Nord 2'
+                value: 'DN2101'
+            -   name: 'OnePlus Nord'
+                value: 'AC2001'
+            -   name: 'OnePlus X'
+                value: 'ONE E1003'
+    -   name: 'OPPO'
+        value: 'OPPO'
+        models:
+            -   name: 'Reno6 Pro+'
+                value: 'PEPM00'
+            -   name: 'Find X3 Pro'
+                value: 'PEEM00'
+            -   name: 'Reno5 Pro+ 5G'
+                value: 'PEHM00'
+            -   name: 'Reno4 Pro'
+                value: 'PDNM00'
+            -   name: 'Reno3 Pro'
+                value: 'PCRM00'
+            -   name: 'Reno2'
+                value: 'PCKM00'
+            -   name: 'Find X2 Pro'
+                value: 'CPH2025'
+            -   name: 'R17 Pro'
+                value: 'CPH1877'
+            -   name: 'R15'
+                value: 'PAAM00'
+            -   name: 'R11s'
+                value: 'PAVM10'
+            -   name: 'A94 5G'
+                value: 'CPH2205'
+            -   name: 'A92s'
+                value: 'PDKM00'
+            -   name: 'A91'
+                value: 'PCPM00'
+            -   name: 'A9'
+                value: 'PCET00'
+            -   name: 'K7x'
+                value: 'PEHM10'
+            -   name: 'K3'
+                value: 'PCGM00'
+            -   name: 'A53'
+                value: 'PEEM00'
+            -   name: 'A33'
+                value: 'CPH2135'
+            -   name: 'A16'
+                value: 'PCDM10'
+    -   name: '三星'
+        value: 'Samsung'
+        models:
+            -   name: 'Galaxy S21'
+                value: 'G9910'
+            -   name: 'Galaxy S21+'
+                value: 'G9960'
+            -   name: 'Galaxy S21 Ultra'
+                value: 'G9980'
+            -   name: 'Galaxy On7'
+                value: 'SM-G6000'
+            -   name: 'Galaxy A9'
+                value: 'SM-A9000'
+            -   name: 'Galaxy S6 Edge+'
+                value: 'SM-G9280'
+            -   name: 'Galaxy A7'
+                value: 'SM-A7100'
+            -   name: 'Galaxy A5'
+                value: 'SM-A5100'
+            -   name: 'Galaxy J3'
+                value: 'SM-J3109'
+            -   name: 'Galaxy Note5'
+                value: 'SM-N9200'
+            -   name: 'Galaxy On5'
+                value: 'SM-G5500'
+            -   name: '领世旗舰Ⅲ'
+                value: 'SM-G9198'
+            -   name: 'Galaxy J7'
+                value: 'SM-J7008'
+            -   name: 'Galaxy J5'
+                value: 'SM-J5008'
+            -   name: 'Galaxy A8'
+                value: 'SM-A8000'
+            -   name: 'Galaxy S6'
+                value: 'SM-G9208'
+            -   name: 'W2015'
+                value: 'SM-W2015'
+    -   name: 'HTC'
+        value: 'HTC'
+        models:
+            -   name: 'One M9'
+                value: 'HTC M9e'
+            -   name: 'One A9'
+                value: 'HTC One A9'
+            -   name: 'One X9'
+                value: 'HTC X9u'
+            -   name: 'One E9+'
+                value: 'HTC E9pw'
+            -   name: 'One M8'
+                value: 'HTC M8St'
+            -   name: 'HTC 10u'
+                value: 'HTC M10u'
+            -   name: 'HTC 10h'
+                value: 'HTC_M10h'
+            -   name: 'One M9+'
+                value: 'HTC M9PT'
+            -   name: 'Desire 10 Pro'
+                value: 'HTC D10w'
+            -   name: 'U Ultra'
+                value: 'HTC_U-1u'
+            -   name: 'U Ultra w'
+                value: 'HTC U-1w'
+            -   name: 'U11'
+                value: 'HTC U11'
+            -   name: 'U11+'
+                value: 'HTC 2Q4D200'
+            -   name: 'U11 EYEs'
+                value: 'HTC 2Q4R400'
+    -   name: '索尼'
+        value: 'Sony'
+        models:
+            -   name: 'Xperia Z3'
+                value: 'L55t'
+            -   name: 'Xperia Z5 Premium'
+                value: 'E6883'
+            -   name: 'Xperia Z5'
+                value: 'E6683'
+            -   name: 'Xperia Z3+'
+                value: 'E6533'
+            -   name: 'Xperia Z3'
+                value: 'L55u'
+            -   name: 'Xperia C4'
+                value: 'E5363'
+            -   name: 'Xperia C5'
+                value: 'E5563'
+            -   name: 'Xperia M5'
+                value: 'E5663'
+            -   name: 'Xperia Z5 Compact'
+                value: 'E5823'
+            -   name: 'Xperia M4 Aqua Dual'
+                value: 'E2363'
+            -   name: 'Xperia Z3 Dual TD'
+                value: 'D6683'
+            -   name: 'Xperia M4 Aqua'
+                value: 'E2312'
+    -   name: '联想集团'
+        value: 'Lenovo'
+        models:
+            -   name: '黄金斗士 S8'
+                value: 'Lenovo A7600-m'
+            -   name: '黄金斗士 A8 畅玩'
+                value: 'Lenovo A3580'
+            -   name: '黄金斗士 Note8 '
+                value: 'Lenovo A938t'
+            -   name: '乐檬 K3'
+                value: 'Lenovo K30-T'
+            -   name: '乐檬 K3 Note'
+                value: 'Lenovo K50-t3s'
+            -   name: '乐檬3'
+                value: 'Lenovo K32C36'
+            -   name: 'VIBE Shot大拍'
+                value: 'Lenovo Z90-3'
+    -   name: '乐视老'
+        value: 'Letv'
+        models:
+            -   name: '乐1'
+                value: 'X608'
+            -   name: '乐1S'
+                value: 'X500'
+            -   name: '乐1Pro'
+                value: 'X800'
+            -   name: '乐Max'
+                value: 'X900'
+    -   name: '锤子科技'
+        value: 'Smartisan'
+        models:
+            -   name: 'T1'
+                value: 'SM705'
+            -   name: 'T2'
+                value: 'SM801'
+            -   name: '坚果'
+                value: 'YQ601'
+    -   name: '中兴通讯'
+        value: 'ZTE'
+        models:
+            -   name: 'AXON 天机 MAX'
+                value: 'ZTE C2016'
+            -   name: 'AXON 天机 MINI'
+                value: 'ZTE B2015'
+            -   name: 'AXON 天机'
+                value: 'ZTE A2015'
+            -   name: '星星2号'
+                value: 'ZTE G720C'
+    -   name: '努比亚技术'
+        value: 'nubia'
+        models:
+            -   name: '大牛 Z9 Max'
+                value: 'NX512J'
+            -   name: '小牛4 Z9 Mini'
+                value: 'NX511J'
+            -   name: 'Z9'
+                value: 'NX508J'
+            -   name: 'My 布拉格'
+                value: 'NX513J'
+            -   name: '布拉格S'
+                value: 'NX513J'
+
+#
+# SIM卡配置
+#
+sims:
+    -   name: '中国移动'
+        values: [ '46000', '46002', '46007' ]
+        iccids: [ '898600' ]
+        phones: [ '134','135','136','137','138','139','147','150','151','152','157','158','159','187','188','182','183','184','178','198' ]
+        country: 'cn'
+    -   name: '中国联通'
+        values: [ '46001' ]
+        iccids: [ '898601' ]
+        phones: [ '130','131','132','145','155','156','175','176','185','186','166','146' ]
+        country: 'cn'
+    -   name: '中国电信'
+        values: [ '46003' ]
+        iccids: [ '898603' ]
+        phones: [ '133','153','149','173','177','180','181','189' ]
+        country: 'cn'
+
+#
+# 安卓系统版本 具体参阅
+#   https://www.jianshu.com/p/dc7e5399be32
+#
+versions:
+    -   name: Android 1.0
+        value: 1
+    -   name: Android 1.1
+        value: 2
+    -   name: Android 1.5 Cupcake
+        value: 3
+    -   name: Android 1.6 Donut
+        value: 4
+    -   name: Android 2.0 Eclair
+        value: 5
+    -   name: Android 2.0.1 Eclair
+        value: 6
+    -   name: Android 2.1 Eclair
+        value: 7
+    -   name: Android 2.2 Froyo
+        value: 8
+    -   name: Android 2.3 Gingerbread
+        value: 9
+    -   name: Android 2.3.3 - 2.3.7 Gingerbread
+        value: 10
+    -   name: Android 3.0 Honeycomb
+        value: 11
+    -   name: Android 3.1 Honeycomb
+        value: 12
+    -   name: Android 3.2 Honeycomb
+        value: 13
+    -   name: Android 4.0.1 - 4.0.2 Ice Cream Sandwich
+        value: 14
+    -   name: Android 4.0.3 - 4.0.4 Ice Cream Sandwich
+        value: 15
+    -   name: Android 4.1 Jelly Bean
+        value: 16
+    -   name: Android 4.2 Jelly Bean
+        value: 17
+    -   name: Android 4.3 Jelly Bean
+        value: 18
+    -   name: Android 4.4 KitKat
+        value: 19
+    -   name: Android 4.4W KitKat (wearable-only)
+        value: 20
+    -   name: Android 5.0 Lollipop
+        value: 21
+    -   name: Android 5.1 Lollipop
+        value: 22
+    -   name: Android 6.0 Marshmallow
+        value: 23
+    -   name: Android 7.0 Nougat
+        value: 24
+    -   name: Android 7.1 Nougat
+        value: 25
+    -   name: Android 8.0 Oreo
+        value: 26
+    -   name: Android 8.1 Oreo
+        value: 27
+    -   name: Android 9 Pie
+        value: 28
+    -   name: Android 10
+        value: 29
+    -   name: Android 11
+        value: 30
+    -   name: Android 12
+        value: 31
+
+#
+# 时区设置，具体请参阅
+#   https://blog.csdn.net/caicai1377/article/details/115873822
+#
+timezone:
+    -   name: 国际日期变更线西
+        value: Etc/GMT+12
+    -   name: 夏威夷-阿留申标准时间
+        value: Pacific/Honolulu
+    -   name: 北美太平洋标准时间
+        value: America/Los_Angeles
+    -   name: 北美山区标准时间
+        value: America/Denver
+    -   name: 北美中部标准时间
+        value: America/Chicago
+    -   name: 北美东部标准时间
+        value: America/New_York
+    -   name: 大西洋标准时间
+        value: America/Halifax
+    -   name: 纽芬兰标准时间
+        value: America/St_Johns
+    -   name: 巴西利亚时间
+        value: America/Sao_Paulo
+    -   name: 格林威治标准时间
+        value: Etc/GMT
+    -   name: 西欧时间
+        value: Europe/London
+    -   name: 中欧时间
+        value: Europe/Berlin
+    -   name: 东欧时间
+        value: Europe/Moscow
+    -   name: 非洲中部时间
+        value: Africa/Johannesburg
+    -   name: 印度洋时间
+        value: Indian/Maldives
+    -   name: 中国标准时间
+        value: Asia/Shanghai
+    -   name: 日本标准时间
+        value: Asia/Tokyo
+    -   name: 澳大利亚东部标准时间
+        value: Australia/Sydney
+    -   name: 新西兰标准时间
+        value: Pacific/Auckland
+
+#
+# 语言设置，具体请参阅：
+#   https://www.oracle.com/java/technologies/javase/jdk8-jre8-suported-locales.html
+#
+languages:
+    - name: 中文简体
+      value: zh_CN
+    - name: 中文繁体
+      value: zh_TW
+    - name: 英语（美国）
+      value: en_US
+    - name: 英语（英国）
+      value: en_GB
+    - name: 日语
+      value: ja_JP
+    - name: 法语
+      value: fr_FR
+    - name: 西班牙语
+      value: es_ES
+    - name: 德语
+      value: de_DE
+    - name: 意大利语
+      value: it_IT
+    - name: 葡萄牙语
+      value: pt_PT
+    - name: 俄语
+      value: ru_RU
+    - name: 韩语
+      value: ko_KR
+    - name: 阿拉伯语
+      value: ar_SA
+    - name: 土耳其语
+      value: tr_TR
+    - name: 希腊语
+      value: el_GR
+    - name: 荷兰语
+      value: nl_NL
+    - name: 瑞典语
+      value: sv_SE
+    - name: 丹麦语
+      value: da_DK
+    - name: 挪威语
+      value: nb_NO
+
+#
+# Wi-Fi配置
+#
+wifi:
+    name: [ 'TP-%s', 'TP-LINK_%s', 'FAST_%s', 'Tenda_%s', 'MERCURY_%s' ]
+
+
+#
+# DPI
+#
+dpi:
+    -   name: 'hdpi'
+        value: '640'
+    -   name: 'xhdpi'
+        value: '480'
+    -   name: 'xxhdpi'
+        value: '320'
+    -   name: 'xxxhdpi'
+        value: '240'
